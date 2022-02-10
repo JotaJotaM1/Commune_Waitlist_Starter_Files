@@ -64,14 +64,25 @@ button {
   background-color: #372865;
   border-style: none;
 }
-.containerIcons{
-margin: 20px 5%;
+.containerIcons {
+  margin: 20px 5%;
 }
-h4{
+h4 {
   color: #5f5f5f;
-  margin: 20px 0 ;
+  margin: 20px 0;
 }
-.icons{
+.icons {
   padding: 0 5px;
 }
-
+@media (min-width: 1440px) {
+  .prueba {
+    display: flex;
+  }
+  .ImgHeart {
+    height: auto;
+    width: 600px;
+    background-image: url(../img/Illustration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
