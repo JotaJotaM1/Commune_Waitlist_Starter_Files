@@ -75,14 +75,51 @@ h4 {
   padding: 0 5px;
 }
 @media (min-width: 1440px) {
+  main {
+    margin: 5% 13% 0 13%;
+  }
   .prueba {
     display: flex;
   }
+  header {
+    margin: 4% 13% 8%;
+  }
   .ImgHeart {
-    height: auto;
-    width: 600px;
+    margin-left: 30px;
+    height: 510px;
+    width: 970px;
     background-image: url(../img/Illustration.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+  }
+  h1 {
+    padding: 30px 30px 0 0;
+    text-align: left;
+    font-size: 65px;
+  }
+  p {
+    margin: 0;
+    text-align: left;
+    font-size: 23px;
+  }
+  .data {
+    display: flex;
+    flex-direction: row;
+  }
+  footer {
+    margin: 0 13%;
+  }
+  .containerIcons {
+    margin: 0;
+  }
+  .buttonFalse {
+    height: 40px;
+    font-size: 20px;
+    margin: 0 38% 0 0;
+    padding: 0;
+  }
+  button {
+    margin-right: 250px;
+    width: 30%;
   }
 }
